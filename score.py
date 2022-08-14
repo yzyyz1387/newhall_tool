@@ -203,4 +203,3 @@ if __name__ == '__main__':
         data = yaml.load(f, Loader=yaml.FullLoader)
         for i in data:
             loop.run_until_complete(data_processor(str(i), data[i]))
-
