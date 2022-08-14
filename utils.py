@@ -55,3 +55,4 @@ async def async_r(file):
         content = await f.read()
         await f.close()
         return content
+
