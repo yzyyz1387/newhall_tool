@@ -71,7 +71,7 @@ pip install -r requirements.txt -i https://pypi.douban.com/simple/
 
 ### 配置
 
-打开`config.py`，修改配置：
+打开`config.yml`，修改配置：
 
 ```yaml
 # 配置文件
