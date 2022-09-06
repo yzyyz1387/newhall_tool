@@ -15,6 +15,7 @@ from .path import *
 logger = log()
 
 
+@time_log
 async def check_elective(account: str, password: str):
     """
     检查选课情况
@@ -78,6 +79,7 @@ async def check_elective(account: str, password: str):
 
 if __name__ == '__main__':
     import asyncio
+
     loop = asyncio.get_event_loop()
     with open(config, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.FullLoader)
