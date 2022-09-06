@@ -6,7 +6,7 @@
 # @File    : login_check.py
 # @Software: PyCharm
 from typing import Optional
-from utils import log
+from utils import *
 import httpx
 import json
 
